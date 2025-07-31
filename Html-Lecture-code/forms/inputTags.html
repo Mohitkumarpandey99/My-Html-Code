@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input tag</title>
+</head>
+<body>
+    <form action="/contact.me"> 
+        <label for="username">Username:</label>
+         <input  type="text" id="username" placeholder = "Enter your username" required="true"  ><br>
+
+
+    <label for="user_password">password:</label> 
+     <input type="password" id="user_password" placeholder ="Enter password"><br>
+
+    <label for="date">Date:</label>
+     <input type="date" id="date">
+     <br>
+
+      <label for="file">file:</label>
+     <input type="file"id="file"><br>   
+
+     <label for="colour">Choose colour:</label>
+     <input type="color" id="colour"><br>
+
+     <label for="range">Price range:</label>
+     <input type="range"id ="range" min="0" max="100" step="10"><br> 
+
+      <label for="button">click me:</label>
+     <input type="button" id="button" value="clicked"> 
+     <br><br>
+    <header>Enter Sex <br>
+    <label for="Male" >Male:</label>
+    <input type="radio" id="Male" name="gender" value="Male">
+    <br>
+
+    <label>Female:</label>
+    <input type="radio" name="gender" value="Male">
+     <br>
+
+    
+    <label>Other:</label>
+    <input type="radio" name="gender" value="Male"> 
+    <br></header>
+    <br>
+
+    
+     <label for="lang" >java:</label>
+    <input type="checkbox" id="lang" name="language" value="java">
+    <br>
+
+    <label>C lannguage</label>
+    <input type="checkbox" name="language" value="C">   
+     <br>
+
+    
+    <label>Html</label>
+    <input type="checkbox" name="language" value="html"> 
+    <br></header>
+    <br>
+
+     
+    <label for="fruits">Choose A Fruit:</label>
+    <select name="fruit" id="fruits">
+     <option value="apple">Apple</option>
+     <option value="mango">mango</option>  
+     <option value="grapes">grapes</option>
+     <option value="coconut">coconut</option>
+    </select>
+     <br><br>
+     
+      <label for="description">description box</label>
+     <textarea rows="4" cols="40" name="description" id="description">default text here</textarea>
+      <br>
+    Submit:<input type="submit">
+  </form> 
+</body>
+</html>  
